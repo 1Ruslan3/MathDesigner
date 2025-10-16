@@ -59,6 +59,6 @@ def animate(frame):
         circ.center = (xr, yr)
     return circles
 
-ani = animation.FuncAnimation(fig, animate, frames=240, interval=7~0, blit=True, repeat=True)
+ani = animation.FuncAnimation(fig, animate, frames=240, interval=70, blit=True, repeat=True)
 
 plt.show()
