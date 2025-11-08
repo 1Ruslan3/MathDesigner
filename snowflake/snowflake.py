@@ -66,4 +66,4 @@ def elegant_snowflakes(n_snowflakes=4, min_radius=0.3, max_radius=1.0,
     plt.tight_layout()
     plt.show()
 
-elegant_snowflakes(4, min_branches=6, max_branches=6)
+elegant_snowflakes(10, min_branches=6, max_branches=6)
